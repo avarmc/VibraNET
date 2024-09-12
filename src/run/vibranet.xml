@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+	<item type="split">
+		<set rows="1" cols="2">
+			<set w="49.2089" h="100" />
+		</set>
+		<item type="split">
+			<set cols="1" rows="2" />
+			<item type="overview">
+				<set />
+			</item>
+			<item type="split">
+				<set cols="2" rows="1">
+					<set w="55.7491" h="100" />
+				</set>
+				<item type="camera">
+					<set id="cam1" host="127.0.0.1/2" path=".\log" w="44.2509" h="100" />
+				</item>
+				<item type="camera">
+					<set id="ipcam1" host="127.0.0.1/1" path=".\log" />
+				</item>
+			</item>
+		</item>
+		<item type="split">
+			<set cols="2" rows="1" />
+			<item type="image_log">
+				<set count="5" />
+			</item>
+			<item type="text_log">
+				<set />
+			</item>
+		</item>
+	</item>
+</config>
